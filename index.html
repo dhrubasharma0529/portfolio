@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio website of a Computer Engineer showcasing projects, skills, and experience in software development and engineering.">
+    <title>Computer Engineer Portfolio | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">CE</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-name">Dhruba Sharma</h1>
+                <h2 class="hero-title">Computer Engineer</h2>
+                <p class="hero-description">
+                    I am an engineer that wants to solve real-world problems through A.I.
+                    Passionate about clean code, scalable architecture, and cutting-edge technology.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="code-keyword">class</span> <span class="code-class">Engineer</span> {
+  <span class="code-keyword">constructor</span>() {
+    <span class="code-keyword">this</span>.name = <span class="code-string">'Dhruba'</span>;
+    <span class="code-keyword">this</span>.skills = [
+      <span class="code-string">'JavaScript'</span>,
+      <span class="code-string">'Python'</span>,
+      <span class="code-string">'Machine Learning'</span>,
+    ];
+  }
+  
+  <span class="code-function">build</span>() {
+    <span class="code-keyword">return</span> <span class="code-string">'Amazing Things'</span>;
+  }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a Computer Engineer with a passion for building elegant solutions to complex problems.
+                        With expertise spanning software development, system architecture, and emerging technologies,
+                        I thrive on turning innovative ideas into reality.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🎓</div>
+                            <div class="highlight-content">
+                                <h3>Education</h3>
+                                <p>B.S. in Computer Engineering</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">💼</div>
+                            <div class="highlight-content">
+                                <h3>Experience</h3>
+                                <p>6 months in as junior nodejs backend developer</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🚀</div>
+                            <div class="highlight-content">
+                                <h3>Projects</h3>
+                                <p>10+ Completed Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript/TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Frameworks & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git/CI/CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Streamlit</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Specializations</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">Agents with google adk</span>
+                        <span class="skill-tag">Fast Api</span>
+                        <span class="skill-tag">Nodejs</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Vector Embeddings</span>
+                        <span class="skill-tag">Vector Databases</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dhrubasharma0529/diabetes_fastapi" class="project-link">View
+                                Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Diabetes Prediction Webapp</h3>
+                        <p class="project-description">
+                            This project is a Machine Learning–based Diabetes Prediction System that uses a Logistic
+                            Regression model built with Scikit-learn to predict diabetes risk from user health data.
+                            The backend is developed using FastAPI to serve predictions efficiently, while a Streamlit
+                            frontend provides an interactive and user-friendly interface. ngrok is used to expose the
+                            local backend to a public URL, enabling seamless testing and integration of the end-to-end
+                            application.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">ngrok</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dhrubasharma0529/simplerag" class="project-link">View Project
+                                →</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SimpleRAG Demo</h3>
+                        <p class="project-description">
+                            The SimpleRAG is a Retrieval-Augmented Generation (RAG) application built with Streamlit
+                            that enables users to ask questions about Infosys students. It leverages Groq’s API and
+                            vector embeddings to find relevant documents and generates answers using the LLM model
+                            llama-3.3-70b-versatile.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Groq API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dhrubasharma0529/google_adk_coordinate_weather_time_agents"
+                                class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather agent with google adk</h3>
+                        <p class="project-description">
+                            A Google ADK agent that provides the current weather, coordinates, and time for a specified
+                            city. The agent uses the Open-Meteo API for weather data and a geocoding API for latitude
+                            and longitude.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Google ADK</span>
+                            <span class="tech-tag">Open-Meteo API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dhrubasharma0529/yolo_helmet_detection"
+                                class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Helmet Detection</h3>
+                        <p class="project-description">
+                            This project implements a real-time helmet detection system using YOLOv8.
+                            It detects whether a person is wearing a helmet or not and raises an audible beep alert if
+                            someone is without a helmet.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">YOLOv8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        vision.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:dhrubas0505@gmail.com" class="contact-method">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>dhrubas0505@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com" class="contact-method" target="_blank" rel="noopener">
+                            <div class="contact-icon">💻</div>
+                            <div class="contact-details">
+                                <h3>GitHub</h3>
+                                <p>https://github.com/dhrubasharma0529</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com" class="contact-method" target="_blank" rel="noopener">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-details">
+                                <h3>LinkedIn</h3>
+                                <p>linkedin.com/in/dhruba-sharma-170548367/</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Dhruba Sharma. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
